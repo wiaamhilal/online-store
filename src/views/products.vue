@@ -1,7 +1,7 @@
 <template>
   <div class="products" :style="{ '--main-color': color}">
-    <div class="d-flex align-items-center justify-content-between">
-      <div class="dropdown justify-content-start d-flex mt-3 ms-3">
+    <div class="d-flex align-items-center justify-content-between hold-my-nav">
+      <div class="dropdown justify-content-start d-flex mt-3 ms-3 mb-3">
       <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
         products color
       </a>
@@ -185,6 +185,11 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
   gap: 20px;
+}
+@media (max-width:767px) {
+  .hold-my-nav {
+    flex-wrap: wrap;
+}
 }
 // .card {
 //   color: #888 !important;

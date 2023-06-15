@@ -63,12 +63,12 @@ export default {
       // localStorage.setItem('taskPage','');
     },
   },
-  updated: function () {
-    localStorage.setItem('taskPage',JSON.stringify(this.tasks));
-  },
-  created: function () {
-      this.tasks = JSON.parse(localStorage.getItem("taskPage"));
-  },
+  // updated: function () {
+  //   localStorage.setItem('taskPage',JSON.stringify(this.tasks));
+  // },
+  // created: function () {
+  //     this.tasks = JSON.parse(localStorage.getItem("taskPage"));
+  // },
 
     name: "help",
 }
