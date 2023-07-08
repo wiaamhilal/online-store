@@ -6,8 +6,8 @@ import store from "./store";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "../dist/css/all.min.css";
-import "../dist/js/all.min.js";
+// import "../dist/css/all.min.css";
+// import "../dist/js/all.min.js";
 
 import "./scss/main.scss";
 import "normalize.css";
