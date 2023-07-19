@@ -51,24 +51,21 @@ export default {
   methods: {
     addTask: function () {
       this.tasks.push(this.taskText);
-      this.taskText = "";
-      // window.localStorage.setItem('taskPage',JSON.stringify(this.tasks));             
+      this.taskText = "";         
     },
     deleteTask: function (index) {
       this.tasks.splice(index, 1);
-      // localStorage.setItem('taskPage',JSON.stringify(this.tasks));
     },
     deleteAll: function () {
       this.tasks = [];
-      // localStorage.setItem('taskPage','');
     },
   },
-  // updated: function () {
-  //   localStorage.setItem('taskPage',JSON.stringify(this.tasks));
-  // },
-  // created: function () {
-  //     this.tasks = JSON.parse(localStorage.getItem("taskPage"));
-  // },
+  updated: function () {
+    localStorage.setItem('taskPage',JSON.stringify(this.tasks));
+  },
+  created: function () {
+      this.tasks = JSON.parse(localStorage.getItem("taskPage"));
+  },
 
     name: "help",
 }
@@ -85,6 +82,9 @@ export default {
 }
 .card {
   animation: trans 0.5s linear;
+}
+.feeld {
+  outline: none;
 }
 
 </style>

@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light" :style="{ '--main-color': color }">
   <div class="container">
-    <a class="navbar-brand" href="/">WEAAM</a> 
+    <router-link class="navbar-brand" to="/">WIAAM</router-link> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

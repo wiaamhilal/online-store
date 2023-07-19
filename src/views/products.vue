@@ -129,6 +129,7 @@ export default {
   methods: {
     updateColors: function (e) {
       this.color = e.target.getAttribute("data-color");
+      localStorage.setItem("color",e.target.getAttribute("data-color"))
     },
     displayNone: function (event) {
       event.target.style.display = "none";
@@ -139,6 +140,7 @@ export default {
     //     this.amountInput * this.dolor;
     // }
 
+
     totalDolor: function () {
       return this.amountInput * this.dolor;
     },
@@ -147,7 +149,8 @@ export default {
     }
   },
   created: function () {
-       this.dhr = this.dolor * 3.67
+       this.dhr = this.dolor * 3.67;
+       this.color = localStorage.getItem("color");     
   },
   name: "products",
 };
