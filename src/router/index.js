@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import help from '../views/freinds.vue'
+import freinds from '../views/freinds.vue'
 import portfolio from '../views/portfolio.vue'
 import blog from '../views/products.vue'
 import culcolater from '../views/culcolater'
@@ -22,7 +22,7 @@ const routes = [
   {
     path: "/freinds",
     name: "freinds",
-    component: help
+    component: freinds
   },
   {
     path: "/products",
