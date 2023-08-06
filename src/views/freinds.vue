@@ -67,7 +67,7 @@ export default {
       this.tasks = JSON.parse(localStorage.getItem("taskPage"));
   },
 
-    name: "help",
+    name: "Freinds",
 }
 </script>
 

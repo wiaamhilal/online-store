@@ -13,7 +13,7 @@
             <router-link to="/portfolio" tag="li" class="nav-item">
             <a class="nav-link">Portfolio</a>
             </router-link>
-            <router-link to="/freinds" tag="li" class="nav-item">
+            <router-link to="/Freinds" tag="li" class="nav-item">
             <a class="nav-link">Friends</a>
             </router-link>
             <router-link to="/products" tag="li" class="nav-item">

@@ -3,7 +3,7 @@
     <div class="landing text-center">
       <h1 class="text-black-50">wellcome to wiaam page</h1>
       <p class="text-black-50">get started with us by inform your data</p>
-      <router-link to="/freinds" class="btn btn-primary rounded-pill">get started</router-link>
+      <router-link to="/Products" class="btn btn-primary rounded-pill">Browse Products</router-link>
     </div>
 
   </div>
