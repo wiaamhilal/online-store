@@ -42,15 +42,4 @@ export default {
   color: white;
   background-color: #0075ff;
 }
-// @keyframes show {
-//   from {
-//     opacity: 0;
-//   }
-//   to{
-//     opacity: 1;
-//   }
-// }
-// router-link {
-//   animation: show linear 0.5s;
-// }
 </style>
